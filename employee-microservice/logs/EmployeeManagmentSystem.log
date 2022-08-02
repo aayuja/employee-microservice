@@ -1,0 +1,68 @@
+2022-08-02 10:03:29.147  INFO 2128 --- [main] c.d.s.EmployeeMicroserviceApplication    : Starting EmployeeMicroserviceApplication using Java 11 on WKWIN7779136 with PID 2128 (C:\ani\employee-microservice\target\classes started by ayubartw in C:\ani\employee-microservice)
+2022-08-02 10:03:29.154  INFO 2128 --- [main] c.d.s.EmployeeMicroserviceApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-08-02 10:03:29.958  INFO 2128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-02 10:03:30.119  INFO 2128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152 ms. Found 5 JPA repository interfaces.
+2022-08-02 10:03:30.295  INFO 2128 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9cc369f0-e0d1-32e3-980b-de5e71b51e36
+2022-08-02 10:03:30.610  INFO 2128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8280 (http)
+2022-08-02 10:03:30.619  INFO 2128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-02 10:03:30.620  INFO 2128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-02 10:03:30.748  INFO 2128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-02 10:03:30.749  INFO 2128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1560 ms
+2022-08-02 10:03:31.096  INFO 2128 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-02 10:03:31.158  INFO 2128 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-02 10:03:31.299  INFO 2128 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-02 10:03:31.415  INFO 2128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-02 10:03:31.498  INFO 2128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-02 10:03:31.531  INFO 2128 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2022-08-02 10:03:32.220  INFO 2128 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-02 10:03:32.226  INFO 2128 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-02 10:03:32.586  WARN 2128 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-02 10:03:33.576  INFO 2128 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-08-02 10:03:33.619  WARN 2128 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-08-02 10:03:33.622  INFO 2128 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-08-02 10:03:33.677  INFO 2128 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-02 10:03:33.707  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-02 10:03:33.710  INFO 2128 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-02 10:03:33.731  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-02 10:03:33.731  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-02 10:03:33.731  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-02 10:03:33.731  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-02 10:03:33.731  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-02 10:03:33.731  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-02 10:03:33.731  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-02 10:03:34.019  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-02 10:03:34.021  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-08-02 10:03:34.024  INFO 2128 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-02 10:03:34.028  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1659414814028 with initial instances count: 1
+2022-08-02 10:03:34.029  INFO 2128 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EMPLOYEE-MICROSERVICE with eureka with status UP
+2022-08-02 10:03:34.031  INFO 2128 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659414814031, current=UP, previous=STARTING]
+2022-08-02 10:03:34.032  INFO 2128 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-MICROSERVICE/host.docker.internal:employee-microservice:8280: registering service...
+2022-08-02 10:03:34.052  INFO 2128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8280 (http) with context path ''
+2022-08-02 10:03:34.052  INFO 2128 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8280
+2022-08-02 10:03:34.070  INFO 2128 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-MICROSERVICE/host.docker.internal:employee-microservice:8280 - registration status: 204
+2022-08-02 10:03:34.379  INFO 2128 --- [main] c.d.s.EmployeeMicroserviceApplication    : Started EmployeeMicroserviceApplication in 5.833 seconds (JVM running for 6.576)
+2022-08-02 10:04:35.668  INFO 2128 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-02 10:04:35.668  INFO 2128 --- [RMI TCP Connection(10)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-02 10:04:35.672  INFO 2128 --- [RMI TCP Connection(10)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-08-02 10:04:47.563  INFO 2128 --- [http-nio-8280-exec-1] c.demo.spring.controller.EmpController   : Employee profile found
+2022-08-02 10:08:33.779  INFO 2128 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-02 10:13:33.815  INFO 2128 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-02 10:18:33.883  INFO 2128 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-02 10:23:33.915  INFO 2128 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-02 10:28:33.928  INFO 2128 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-02 10:33:33.940  INFO 2128 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-02 10:38:33.956  INFO 2128 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-02 10:43:33.973  INFO 2128 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-02 10:48:33.988  INFO 2128 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-02 10:51:11.699  INFO 2128 --- [RMI TCP Connection(60)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-02 10:51:11.704  INFO 2128 --- [RMI TCP Connection(60)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EMPLOYEE-MICROSERVICE with eureka with status DOWN
+2022-08-02 10:51:11.705  INFO 2128 --- [RMI TCP Connection(60)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1659417671705, current=DOWN, previous=UP]
+2022-08-02 10:51:11.706  INFO 2128 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-MICROSERVICE/host.docker.internal:employee-microservice:8280: registering service...
+2022-08-02 10:51:11.727  INFO 2128 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-MICROSERVICE/host.docker.internal:employee-microservice:8280 - registration status: 204
+2022-08-02 10:51:12.212  INFO 2128 --- [RMI TCP Connection(60)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-02 10:51:12.222  INFO 2128 --- [RMI TCP Connection(60)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-02 10:51:12.234  INFO 2128 --- [RMI TCP Connection(60)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-02 10:51:12.240  INFO 2128 --- [RMI TCP Connection(60)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-08-02 10:51:15.251  INFO 2128 --- [RMI TCP Connection(60)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-08-02 10:51:15.267  INFO 2128 --- [RMI TCP Connection(60)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-MICROSERVICE/host.docker.internal:employee-microservice:8280 - deregister  status: 200
+2022-08-02 10:51:15.281  INFO 2128 --- [RMI TCP Connection(60)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

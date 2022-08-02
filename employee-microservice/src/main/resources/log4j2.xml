@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Loggers>
+        <Logger name="logging" level="debug"/>
+        <Logger name="exceptions" level="trace"/>
+        <Logger name = "com.demo.spring" level="debug" />
+        <Root level="error">
+          <AppenderRef ref="Console"/>
+        </Root>
+  </Loggers>
+</Configuration>
